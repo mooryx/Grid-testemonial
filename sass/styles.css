@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
-  min-height: 100vh;
   background-color: #ecf2f8;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,7 +46,6 @@ img {
 
 .container {
   max-width: 90vw;
-  height: 95vh;
   display: -ms-grid;
   display: grid;
   gap: 3%;
@@ -68,7 +72,7 @@ img {
 
 .intro p {
   margin: 0 0 0 15px;
-  line-height: 15px;
+  line-height: 20px;
   font-size: 15px;
   font-weight: 600;
 }
@@ -95,10 +99,6 @@ img {
 
 .daniel .verified {
   opacity: .5;
-}
-
-.daniel img {
-  border: 3px solid #48556a;
 }
 
 .jonathan {
